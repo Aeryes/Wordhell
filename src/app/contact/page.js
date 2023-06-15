@@ -27,9 +27,8 @@ export default function Contact() {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      <div className="container">
       <Script
-        src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"
+        src="https://www.googletagmanager.com/gtag/js?id=G-4SRZPHFE2Q"
         strategy="afterInteractive"
       />
       <Script id="google-analytics" strategy="afterInteractive">
@@ -41,7 +40,6 @@ export default function Contact() {
           gtag('config', 'G-4SRZPHFE2Q');
         `}
       </Script>
-    </div>
       <Navbar></Navbar>
       <h1 id="body-title-top">Contact</h1>
       <p id="contact-desc-one">If you have any questions about this web application feel free to fill out the form below and I will reach out to you as soon as possible.</p>

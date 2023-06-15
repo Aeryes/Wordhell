@@ -8,9 +8,8 @@ export default function About() {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      <div className="container">
       <Script
-        src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"
+        src="https://www.googletagmanager.com/gtag/js?id=G-4SRZPHFE2Q"
         strategy="afterInteractive"
       />
       <Script id="google-analytics" strategy="afterInteractive">
@@ -22,14 +21,12 @@ export default function About() {
           gtag('config', 'G-4SRZPHFE2Q');
         `}
       </Script>
-    </div>
       <Navbar></Navbar>
       <h1 id="body-title-top">About</h1>
       <p id="body-game-desc-two">I created this version of The New York Times famous game 'Wordle' in order</p>
       <p id="body-game-desc-two">to challenge myself and to build my portfolio for employment purposes.</p>
       <p id="body-game-desc-two">If you like this game then go check out the original work by The New York Times.</p>
       <p id="body-game-desc-two"><a id="wordle-link" href="https://www.nytimes.com/games/wordle/index.html">Wordle</a></p>
-
       <h2 id="body-title-top">How is this built?</h2>
       <p id="body-game-desc-two">This project uses the following technologies:</p>
       <div className="container">

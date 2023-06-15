@@ -12,11 +12,9 @@ export default function Home() {
         <meta property="og:title"              content="Wordhell - Wordle Clone" />
         <meta property="og:description"        content="Can you guess the word?" />
         <meta property="og:image"              content="./favicon.ico" />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-4SRZPHFE2Q"></script>
       </Head>
-      <div className="container">
       <Script
-        src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"
+        src="https://www.googletagmanager.com/gtag/js?id=G-4SRZPHFE2Q"
         strategy="afterInteractive"
       />
       <Script id="google-analytics" strategy="afterInteractive">
@@ -28,7 +26,6 @@ export default function Home() {
           gtag('config', 'G-4SRZPHFE2Q');
         `}
       </Script>
-    </div>
       <Navbar></Navbar>
       <h1 id="body-title-top">Wordhell</h1>
       <div id="game-section" className="text-center">
