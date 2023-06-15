@@ -38,7 +38,7 @@ export default function Contact() {
           function gtag(){window.dataLayer.push(arguments);}
           gtag('js', new Date());
 
-          gtag('config', 'GA_MEASUREMENT_ID');
+          gtag('config', 'G-4SRZPHFE2Q');
         `}
       </Script>
     </div>
