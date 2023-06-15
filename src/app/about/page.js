@@ -40,7 +40,7 @@ export default function About() {
               <li id="list-style">React 18.2.0</li>
               <li id="list-style">Next.JS 13.4.5</li>
               <li id="list-style">MUI Material UI 5.13.5</li>
-              <li id="list-style">MUI Material UI 5.3.0</li>
+              <li id="list-style">Bootstrap 5.3.0</li>
               <li id="list-style">EmailJS 3.11.0</li>
           </ul>
           </div>
