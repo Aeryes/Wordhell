@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Navbar from '../navbar.js'
+import Script from 'next/script'
 
 export default function About() {
   return (
@@ -7,6 +8,21 @@ export default function About() {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
+      <div className="container">
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'GA_MEASUREMENT_ID');
+        `}
+      </Script>
+    </div>
       <Navbar></Navbar>
       <h1 id="body-title-top">About</h1>
       <p id="body-game-desc-two">I created this version of The New York Times famous game 'Wordle' in order</p>
