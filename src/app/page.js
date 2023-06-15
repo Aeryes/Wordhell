@@ -8,6 +8,7 @@ export default function Home() {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Wordhell</title>
         <meta property="og:url"                content="https://www.wordhell.com" />
         <meta property="og:title"              content="Wordhell - Wordle Clone" />
         <meta property="og:description"        content="Can you guess the word?" />

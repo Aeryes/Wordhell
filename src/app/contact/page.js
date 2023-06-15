@@ -26,6 +26,7 @@ export default function Contact() {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Wordhell-Contact</title>
       </Head>
       <Script
         src="https://www.googletagmanager.com/gtag/js?id=G-4SRZPHFE2Q"
