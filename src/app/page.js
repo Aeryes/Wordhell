@@ -8,6 +8,10 @@ export default function Home() {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta property="og:url"                content="https://www.wordhell.com" />
+        <meta property="og:title"              content="Wordhell - Wordle Clone" />
+        <meta property="og:description"        content="Can you guess the word?" />
+        <meta property="og:image"              content="./favicon.ico" />
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-4SRZPHFE2Q"></script>
       </Head>
       <div className="container">
