@@ -1,6 +1,6 @@
 import { Abel } from 'next/font/google'
 import 'bootstrap/dist/css/bootstrap.css'
-import './globals.scss'
+import './globals.css'
 
 const abel_font = Abel({
   weight:'400',
