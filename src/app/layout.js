@@ -1,6 +1,6 @@
 import { Abel } from 'next/font/google'
 import 'bootstrap/dist/css/bootstrap.css'
-import './globals.css'
+import './globals.scss'
 
 const abel_font = Abel({
   weight:'400',
@@ -15,7 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={abel_font.className}>{children}</body>
+      <body id="body" className={abel_font.className}>{children}</body>
     </html>
   );
 }
